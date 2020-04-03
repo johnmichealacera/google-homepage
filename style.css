@@ -1,0 +1,110 @@
+body{
+    font-family: sans-serif, monospace;
+}
+
+.header > ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header > ul > li > a {
+    color: rgb(10,10,10);
+    font-size: 14px;
+}
+
+.header ul input{
+    background-color: orangered;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li:last-child{
+    margin-right: 0;
+}
+
+.header > ul > li > a > input{
+    border-radius: 10px;
+    border: solid #5B6DCD 1px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+main > .items{
+    margin: 10px 0;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgb(240,240,240);
+    margin: 0;
+}
+
+footer > .phil{
+    background-color: rgb(240,240,240);
+    display: flex;
+    border: 2px solid rgb(230,230,230);
+    color: gray;
+}
+
+footer > div > .left > ul, footer > div > .right > ul{
+    display: flex;
+}
+
+footer a{
+    color: gray;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    color: grey;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(230,230,230);
+}
+
+input[type="search"]{
+    padding: 10px;
+    border: none;
+}
+
+.search{
+    display: flex;
+    border: 2px solid rgb(230,230,230);
+    align-items: center;
+    border-radius: 5px;
+}
+
+#search{
+    background-image: url('https://pngimage.net/wp-content/uploads/2018/06/logo-search-png-6.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    text-indent: 40px;
+    font-size: 20px;
+}
